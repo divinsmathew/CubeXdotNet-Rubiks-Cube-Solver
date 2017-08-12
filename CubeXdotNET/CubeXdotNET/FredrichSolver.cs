@@ -32,7 +32,7 @@ namespace CubeXdotNET
 
             if (Enumerable.SequenceEqual(this.Cube, Constants.SolvedCube))
             {
-                Tools.OptimizeSolution(this);
+                Tools.OptimizeSolution(this); //Removes redundant moves like "U U'" and reduces "R R2" to "R'"
 
                 this.SolverTime = DateTime.Now - StartTime;
 
