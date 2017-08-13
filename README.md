@@ -20,4 +20,6 @@ For example a solved cube is represented by : `"gggggggggooooooooobbbbbbbbbrrrrr
         Console.WriteLine("Solution ({0} Moves) : {1}",Solver.Length, Solver.Solution);
     }
 
+Go through the sample provided for better understanding.
 
+![](http://i.imgur.com/dvBFOct.png)
