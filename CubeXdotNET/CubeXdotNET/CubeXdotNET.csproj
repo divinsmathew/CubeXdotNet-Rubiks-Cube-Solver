@@ -42,7 +42,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="Cross.cs" />
     <Compile Include="F2L.cs" />
-    <Compile Include="FredrichSolver.cs" />
+    <Compile Include="FridrichSolver.cs" />
     <Compile Include="OLL.cs" />
     <Compile Include="PLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

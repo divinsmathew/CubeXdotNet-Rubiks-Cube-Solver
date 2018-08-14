@@ -21,7 +21,7 @@ namespace CubeXdotNET_Demo
                 return;
             }
 
-            FredrichSolver Solver = new FredrichSolver(CubeState.Text);
+            FridrichSolver Solver = new FridrichSolver(CubeState.Text);
 
             //Status before solving
             LengthLabel.Text = "Length : " + Solver.Length.ToString();

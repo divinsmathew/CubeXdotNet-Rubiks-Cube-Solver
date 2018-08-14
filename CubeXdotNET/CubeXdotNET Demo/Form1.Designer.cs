@@ -54,7 +54,7 @@
             this.SolveButton.Name = "SolveButton";
             this.SolveButton.Size = new System.Drawing.Size(421, 70);
             this.SolveButton.TabIndex = 1;
-            this.SolveButton.Text = "Slove using Fredrich Method!";
+            this.SolveButton.Text = "Solve using Fridrich Method!";
             this.SolveButton.UseVisualStyleBackColor = true;
             this.SolveButton.Click += new System.EventHandler(this.SolveButton_Click);
             // 
