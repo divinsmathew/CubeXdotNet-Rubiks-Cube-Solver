@@ -1,6 +1,6 @@
 # Overview
 
-CubeX is an implementation of the famous [Fredrich Method (or CFOP Method)](https://en.wikipedia.org/wiki/CFOP_Method) in C#. It can generate layer-by-layer solutions to any valid scramble of a 3x3x3 Rubik's Cube, with an average of around 63 moves. Only cubes with standard color scheme [with opposite colors as Yellow-White, Green-Blue and Red-Orange] are currently supported.
+CubeX is an implementation of the famous [Fridrich Method (or CFOP Method)](https://en.wikipedia.org/wiki/CFOP_Method) in C#. It can generate layer-by-layer solutions to any valid scramble of a 3x3x3 Rubik's Cube, with an average of around 63 moves. Only cubes with standard color scheme [with opposite colors as Yellow-White, Green-Blue and Red-Orange] are currently supported.
 
 # Basics
 
@@ -11,7 +11,7 @@ For example a solved cube is represented by : `"gggggggggooooooooobbbbbbbbbrrrrr
 
 # Quickstart
 
-    FredrichSolver Solver = new FredrichSolver("gygrgogwgoyogobowobybobrbwbryrbrgrwryoybygyrywrwbwgwow"); //The Superflip!
+    FridrichSolver Solver = new FredrichSolver("gygrgogwgoyogobowobybobrbwbryrbrgrwryoybygyrywrwbwgwow"); //The Superflip!
 
     Solver.Solve();
 
