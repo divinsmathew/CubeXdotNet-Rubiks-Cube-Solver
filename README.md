@@ -12,14 +12,16 @@ For example a solved cube is represented by : `"gggggggggooooooooobbbbbbbbbrrrrr
 
 # Quickstart
 
-    FridrichSolver Solver = new FridrichSolver("gygrgogwgoyogobowobybobrbwbryrbrgrwryoybygyrywrwbwgwow"); //The Superflip!
+ ```java
+ FridrichSolver Solver = new FridrichSolver("gygrgogwgoyogobowobybobrbwbryrbrgrwryoybygyrywrwbwgwow"); //The Superflip!
 
-    Solver.Solve();
+ Solver.Solve();
 
-    if(Solver.IsSolved)
-    {
-        Console.WriteLine("Solution ({0} Moves) : {1}",Solver.Length, Solver.Solution);
-    }
+ if(Solver.IsSolved)
+ {
+    Console.WriteLine("Solution ({0} Moves) : {1}",Solver.Length, Solver.Solution);
+ }
+ ```
 
 Go through the provided sample for better understanding.
 
