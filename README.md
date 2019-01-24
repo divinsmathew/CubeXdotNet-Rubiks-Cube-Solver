@@ -12,7 +12,7 @@ For example a solved cube is represented by : `"gggggggggooooooooobbbbbbbbbrrrrr
 
 # Quickstart
 
- ```java
+ ```c#
  FridrichSolver Solver = new FridrichSolver("gygrgogwgoyogobowobybobrbwbryrbrgrwryoybygyrywrwbwgwow"); //The Superflip!
 
  Solver.Solve();
