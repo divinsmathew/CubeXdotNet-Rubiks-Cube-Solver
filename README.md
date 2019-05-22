@@ -19,7 +19,7 @@ For example a solved cube is represented by : `"gggggggggooooooooobbbbbbbbbrrrrr
 
  if(Solver.IsSolved)
  {
-    Console.WriteLine("Solution ({0} Moves) : {1}",Solver.Length, Solver.Solution);
+      Console.WriteLine("Solution ({0} Moves) : {1}", Solver.Length, Solver.Solution);
  }
  ```
 
