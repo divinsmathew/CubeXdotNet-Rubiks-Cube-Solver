@@ -27,3 +27,7 @@ Go through the provided sample for better understanding.
 
 ![](https://i.imgur.com/VlMntOB.png)
 
+# License
+
+See the [LICENSE](https://github.com/diozz/CubeXdotNet-Rubiks-Cube-Solver/blob/master/LICENSE) file for license rights and limitations.
+
